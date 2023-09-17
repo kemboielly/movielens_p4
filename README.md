@@ -28,7 +28,7 @@ I then tet the number of folds to 5 for the cross-validation
 The evaluation metrics used are RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error)
 I set the verbose parameter to True to show more details during cross-validation
 ## Content Based Filtering
-I created a TF-IDF vectorizer object called 'tfidf' with English stop words.
+Created a TF-IDF vectorizer object called 'tfidf' with English stop words.
 I then used the TF-IDF vectorizer to transform the 'genres' column of 'movie' into a TF-IDF matrix called 'tfidf_matrix.'
 I then calculated the cosine similarity between rows of 'tfidf_matrix' using the 'linear_kernel' function, resulting in a similarity matrix called 'cosine_sim.' This matrix will help determine the similarity between movies based on their genre descriptions.
 ## Testing the system
